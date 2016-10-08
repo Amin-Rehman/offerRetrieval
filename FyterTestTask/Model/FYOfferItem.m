@@ -9,15 +9,11 @@
 #import "FYOfferItem.h"
 
 @interface FYOfferItem ()
-@property (nonatomic,copy) NSString *title;
-@property (nonatomic,copy) NSString *teaser;
-@property (nonatomic,copy) NSString *thumbnailURL;
-@property (nonatomic,copy) NSString *payout;
 @end
 
 
 @implementation FYOfferItem
-- (instancetype)initWithTitle:(NSString *)title teaser:(NSString *)teaser thumbnail:(NSString *)thumbnail payout:(NSString *)payout  {
+- (instancetype)initWithTitle:(NSString *)title teaser:(NSString *)teaser thumbnail:(NSString *)thumbnail payout:(long) payout {
     self = [super init];
     if (self) {
         _title = title;
@@ -28,7 +24,4 @@
     return self;
 }
 
-- (NSString *)description {
-    return [NSString stringWithFormat:@"Title: %@ teaser: %@ thumbnail: %@ payout: %@ \r",self.title,self.teaser,self.thumbnailURL,self.payout];
-}
 @end

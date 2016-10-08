@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface FYOfferItem : NSObject
-- (instancetype)initWithTitle:(NSString *)title teaser:(NSString *)teaser thumbnail:(NSString *)thumbnail payout:(NSString *)payout;
+@property (nonatomic,copy) NSString *title;
+@property (nonatomic,copy) NSString *teaser;
+@property (nonatomic,copy) NSString *thumbnailURL;
+@property long payout;
+
+- (instancetype)initWithTitle:(NSString *)title teaser:(NSString *)teaser thumbnail:(NSString *)thumbnail payout:(long)payout;
 @end

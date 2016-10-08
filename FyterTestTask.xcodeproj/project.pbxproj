@@ -27,6 +27,10 @@
 		C76622B91DA65C9E005594D2 /* FYOfferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622B71DA65C9E005594D2 /* FYOfferItem.m */; };
 		C76622BC1DA65CF8005594D2 /* FYPayloadParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622BB1DA65CF8005594D2 /* FYPayloadParser.m */; };
 		C76622BD1DA65CF8005594D2 /* FYPayloadParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622BB1DA65CF8005594D2 /* FYPayloadParser.m */; };
+		C76622C01DA66846005594D2 /* FYOfferTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622BF1DA66846005594D2 /* FYOfferTableViewCell.m */; };
+		C76622C11DA66846005594D2 /* FYOfferTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622BF1DA66846005594D2 /* FYOfferTableViewCell.m */; };
+		C76622C81DA66AFD005594D2 /* FYOffersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622C71DA66AFD005594D2 /* FYOffersTableViewController.m */; };
+		C76622C91DA66AFD005594D2 /* FYOffersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622C71DA66AFD005594D2 /* FYOffersTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,10 @@
 		C76622B71DA65C9E005594D2 /* FYOfferItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYOfferItem.m; path = Model/FYOfferItem.m; sourceTree = "<group>"; };
 		C76622BA1DA65CF8005594D2 /* FYPayloadParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYPayloadParser.h; path = Model/FYPayloadParser.h; sourceTree = "<group>"; };
 		C76622BB1DA65CF8005594D2 /* FYPayloadParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYPayloadParser.m; path = Model/FYPayloadParser.m; sourceTree = "<group>"; };
+		C76622BE1DA66846005594D2 /* FYOfferTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYOfferTableViewCell.h; path = Views/FYOfferTableViewCell.h; sourceTree = "<group>"; };
+		C76622BF1DA66846005594D2 /* FYOfferTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYOfferTableViewCell.m; path = Views/FYOfferTableViewCell.m; sourceTree = "<group>"; };
+		C76622C61DA66AFD005594D2 /* FYOffersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYOffersTableViewController.h; path = Controllers/FYOffersTableViewController.h; sourceTree = "<group>"; };
+		C76622C71DA66AFD005594D2 /* FYOffersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYOffersTableViewController.m; path = Controllers/FYOffersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,8 @@
 			children = (
 				C766227F1DA58C19005594D2 /* FYMainViewController.h */,
 				C76622801DA58C19005594D2 /* FYMainViewController.m */,
+				C76622C61DA66AFD005594D2 /* FYOffersTableViewController.h */,
+				C76622C71DA66AFD005594D2 /* FYOffersTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -153,6 +163,8 @@
 		C76622A21DA597E2005594D2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C76622BE1DA66846005594D2 /* FYOfferTableViewCell.h */,
+				C76622BF1DA66846005594D2 /* FYOfferTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -290,8 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76622C01DA66846005594D2 /* FYOfferTableViewCell.m in Sources */,
 				C76622AA1DA59961005594D2 /* FYDataService.m in Sources */,
 				C76622811DA58C19005594D2 /* FYMainViewController.m in Sources */,
+				C76622C81DA66AFD005594D2 /* FYOffersTableViewController.m in Sources */,
 				C766227E1DA58C19005594D2 /* FYAppDelegate.m in Sources */,
 				C76622B81DA65C9E005594D2 /* FYOfferItem.m in Sources */,
 				C76622BC1DA65CF8005594D2 /* FYPayloadParser.m in Sources */,
@@ -312,6 +326,8 @@
 				C76622971DA58C19005594D2 /* FyterTestTaskTests.m in Sources */,
 				C76622B01DA5A552005594D2 /* NSString+FYHash.m in Sources */,
 				C76622BD1DA65CF8005594D2 /* FYPayloadParser.m in Sources */,
+				C76622C11DA66846005594D2 /* FYOfferTableViewCell.m in Sources */,
+				C76622C91DA66AFD005594D2 /* FYOffersTableViewController.m in Sources */,
 				C76622B41DA651A0005594D2 /* Utils.m in Sources */,
 				C76622A71DA598EB005594D2 /* FYDataSource.m in Sources */,
 			);
@@ -494,6 +510,7 @@
 				C766229D1DA58C19005594D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C766229E1DA58C19005594D2 /* Build configuration list for PBXNativeTarget "FyterTestTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +519,7 @@
 				C76622A01DA58C19005594D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

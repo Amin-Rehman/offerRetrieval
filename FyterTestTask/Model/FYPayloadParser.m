@@ -19,10 +19,11 @@
     for(id itemDictionary in offersDictionary) {
         
         if([itemDictionary isKindOfClass:[NSDictionary class]]) {
+            
             FYOfferItem *offer = [[FYOfferItem alloc] initWithTitle:itemDictionary[@"title"]
                                                              teaser:itemDictionary[@"teaser"]
                                                           thumbnail:itemDictionary[@"thumbnail"][@"hires"]
-                                                             payout:itemDictionary[@"payout"]];
+                                                             payout:[itemDictionary[@"payout"] longValue]];
             [offersArray addObject:offer];
         }
     }

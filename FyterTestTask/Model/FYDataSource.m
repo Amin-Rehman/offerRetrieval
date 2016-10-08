@@ -27,6 +27,8 @@
                                  
                                  if (self.delegate) {
                                      [self.delegate offerUpdatedWithItems:offerItems];
+                                 } else {
+                                     NSLog(@" No delegate assigned for FYDataSource");
                                  }
                              });
                          }];
