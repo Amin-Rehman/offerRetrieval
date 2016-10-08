@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>offers</key>
+	<array>
+		<dict>
+			<key>payout</key>
+			<integer>20</integer>
+			<key>thumbnail</key>
+			<dict>
+				<key>hires</key>
+				<string>http://www.imageurl.com/image.png</string>
+			</dict>
+			<key>teaser</key>
+			<string>Teaser Text</string>
+			<key>title</key>
+			<string>Offer Text</string>
+		</dict>
+	</array>
+</dict>
+</plist>

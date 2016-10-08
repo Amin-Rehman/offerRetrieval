@@ -59,8 +59,7 @@
     [cell.payoutLabel setText:[NSString stringWithFormat:@"%ld",item.payout]];
 
     
-    if (cell.imageDownloadTask)
-    {
+    if (cell.imageDownloadTask) {
         [cell.imageDownloadTask cancel];
     }
     
@@ -68,8 +67,7 @@
     [cell.imageView setImage:nil];
     
     NSURL *imageURL = [NSURL URLWithString:item.thumbnailURL];
-    if (imageURL)
-    {
+    if (imageURL) {
         cell.imageDownloadTask = [self.session dataTaskWithURL:imageURL
                                          completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                                       if (error) {
