@@ -14,7 +14,6 @@
 		C76622871DA58C19005594D2 /* FyberTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C76622851DA58C19005594D2 /* FyberTestTask.xcdatamodeld */; };
 		C76622891DA58C19005594D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76622881DA58C19005594D2 /* Assets.xcassets */; };
 		C766228C1DA58C19005594D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C766228A1DA58C19005594D2 /* LaunchScreen.storyboard */; };
-		C76622971DA58C19005594D2 /* FyberTestTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622961DA58C19005594D2 /* FyberTestTaskTests.m */; };
 		C76622A61DA598EB005594D2 /* FYDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622A51DA598EB005594D2 /* FYDataSource.m */; };
 		C76622A71DA598EB005594D2 /* FYDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622A51DA598EB005594D2 /* FYDataSource.m */; };
 		C76622AA1DA59961005594D2 /* FYDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622A91DA59961005594D2 /* FYDataService.m */; };
@@ -31,6 +30,10 @@
 		C76622C11DA66846005594D2 /* FYOfferTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622BF1DA66846005594D2 /* FYOfferTableViewCell.m */; };
 		C76622C81DA66AFD005594D2 /* FYOffersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622C71DA66AFD005594D2 /* FYOffersTableViewController.m */; };
 		C76622C91DA66AFD005594D2 /* FYOffersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76622C71DA66AFD005594D2 /* FYOffersTableViewController.m */; };
+		C7C0F1011DA91DD30045A168 /* FYNSStringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C0F1001DA91DD30045A168 /* FYNSStringCategoryTests.m */; };
+		C7C0F1031DA921390045A168 /* FYHashGenerationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C0F1021DA921390045A168 /* FYHashGenerationTests.m */; };
+		C7C0F1051DA926DE0045A168 /* PayloadTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7C0F1041DA926DE0045A168 /* PayloadTestData.plist */; };
+		C7C0F1071DA927890045A168 /* FYPayloadParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C0F1061DA927890045A168 /* FYPayloadParserTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +59,6 @@
 		C766228B1DA58C19005594D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C766228D1DA58C19005594D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C76622921DA58C19005594D2 /* FyberTestTask.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyberTestTask.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C76622961DA58C19005594D2 /* FyberTestTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FyberTestTaskTests.m; sourceTree = "<group>"; };
 		C76622981DA58C19005594D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C76622A41DA598EB005594D2 /* FYDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYDataSource.h; path = Model/FYDataSource.h; sourceTree = "<group>"; };
 		C76622A51DA598EB005594D2 /* FYDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYDataSource.m; path = Model/FYDataSource.m; sourceTree = "<group>"; };
@@ -74,6 +76,10 @@
 		C76622BF1DA66846005594D2 /* FYOfferTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYOfferTableViewCell.m; path = Views/FYOfferTableViewCell.m; sourceTree = "<group>"; };
 		C76622C61DA66AFD005594D2 /* FYOffersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYOffersTableViewController.h; path = Controllers/FYOffersTableViewController.h; sourceTree = "<group>"; };
 		C76622C71DA66AFD005594D2 /* FYOffersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYOffersTableViewController.m; path = Controllers/FYOffersTableViewController.m; sourceTree = "<group>"; };
+		C7C0F1001DA91DD30045A168 /* FYNSStringCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNSStringCategoryTests.m; sourceTree = "<group>"; };
+		C7C0F1021DA921390045A168 /* FYHashGenerationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYHashGenerationTests.m; sourceTree = "<group>"; };
+		C7C0F1041DA926DE0045A168 /* PayloadTestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PayloadTestData.plist; sourceTree = "<group>"; };
+		C7C0F1061DA927890045A168 /* FYPayloadParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPayloadParserTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +149,11 @@
 		C76622951DA58C19005594D2 /* FyberTestTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				C76622961DA58C19005594D2 /* FyberTestTaskTests.m */,
 				C76622981DA58C19005594D2 /* Info.plist */,
+				C7C0F1001DA91DD30045A168 /* FYNSStringCategoryTests.m */,
+				C7C0F1021DA921390045A168 /* FYHashGenerationTests.m */,
+				C7C0F1041DA926DE0045A168 /* PayloadTestData.plist */,
+				C7C0F1061DA927890045A168 /* FYPayloadParserTests.m */,
 			);
 			path = FyberTestTaskTests;
 			sourceTree = "<group>";
@@ -292,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C0F1051DA926DE0045A168 /* PayloadTestData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,11 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C0F1011DA91DD30045A168 /* FYNSStringCategoryTests.m in Sources */,
 				C76622B91DA65C9E005594D2 /* FYOfferItem.m in Sources */,
 				C76622AB1DA59961005594D2 /* FYDataService.m in Sources */,
-				C76622971DA58C19005594D2 /* FyberTestTaskTests.m in Sources */,
 				C76622B01DA5A552005594D2 /* NSString+FYHash.m in Sources */,
+				C7C0F1031DA921390045A168 /* FYHashGenerationTests.m in Sources */,
 				C76622BD1DA65CF8005594D2 /* FYPayloadParser.m in Sources */,
+				C7C0F1071DA927890045A168 /* FYPayloadParserTests.m in Sources */,
 				C76622C11DA66846005594D2 /* FYOfferTableViewCell.m in Sources */,
 				C76622C91DA66AFD005594D2 /* FYOffersTableViewController.m in Sources */,
 				C76622B41DA651A0005594D2 /* Utils.m in Sources */,

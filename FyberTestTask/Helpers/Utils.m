@@ -16,6 +16,16 @@
 
 + (NSString *)generateHashKeyFromQueryParameters:(NSDictionary *)queryParameters apiKey:(NSString *)apiKey{
     
+    if([[queryParameters allKeys] count] == 0) {
+        NSLog(@"Error: No query parameters supplied to generate hash key");
+        return nil;
+    }
+    
+    if(!apiKey) {
+        NSLog(@"Error: no api key supplied to generate hash key");
+        return nil;
+    }
+    
     NSString *result = [[NSString alloc] init];
             
     NSArray *sortedKeys = [[queryParameters allKeys] sortedArrayUsingSelector: @selector(compare:)];
