@@ -67,7 +67,7 @@ static NSString const *BASE_URL = @"http://api.fyber.com";
             completionBlock(result);
 
         } else {
-            NSLog(@"Error in the REST call while retrieving offer");
+            NSLog(@"Error in the REST call while retrieving offer: status Code = %ld",[httpResponse statusCode]);
         }
         
     };
